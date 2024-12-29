@@ -31,4 +31,19 @@ main() {
 	strcpy(start->next->next->next->name, "tina");
 	start->next->next->next->next = NULL;
 
+	printf("Names of all the members: \n");
+	display(start);
+
+}
+
+void display(node* start) {
+
+	int flag = 1;
+
+	do
+	{
+
+
+	} while (flag);
+
 }
