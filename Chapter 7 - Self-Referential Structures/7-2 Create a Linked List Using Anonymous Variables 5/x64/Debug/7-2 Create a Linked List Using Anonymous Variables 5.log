@@ -1,0 +1,2 @@
+﻿  syndic 2.c
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 5\syndic 2.c(23,1): error C4700: uninitialized local variable 'start' used
