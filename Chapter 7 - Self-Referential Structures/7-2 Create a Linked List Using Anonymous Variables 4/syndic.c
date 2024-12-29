@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+void display(Node* node);
+
 typedef struct {
 
 	char* name;
@@ -40,6 +42,10 @@ void display(Node* node) {
 		printf("Node's name is: %s.\n", node->name);
 
 		node = node->next;
+
+		if (node->next == NULL) {
+			flag = 0;
+		}
 
 	} while (flag == 1);
 
