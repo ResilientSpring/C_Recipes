@@ -2,13 +2,13 @@ typedef struct {
 
 	char* name;
 
-	node* next;
+	Node* next;
 
-} start, node;
+} Start, Node;
 
 
 int main() {
 
-	
+	Node start;
 
 }
