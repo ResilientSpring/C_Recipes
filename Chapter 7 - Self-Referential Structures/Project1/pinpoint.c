@@ -24,5 +24,9 @@ main() {
 	start = (node*) malloc(sizeof(node));
 	strcpy(start->name, "lina");
 	start->next = (node*) malloc(sizeof(node));
+	strcpy(start->next->name, "mina");
+	start->next->next = (node*) malloc(sizeof(node));
+	strcpy(start->next->next->name, "bina");
+	start->next->next->next = (node*)malloc(sizeof(node));
 
 }
