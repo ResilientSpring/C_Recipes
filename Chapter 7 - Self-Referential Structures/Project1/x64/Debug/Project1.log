@@ -1,5 +1,2 @@
 ﻿  pinpoint.c
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\Project1\pinpoint.c(25,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\Project1\pinpoint.c(27,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\Project1\pinpoint.c(29,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\Project1\pinpoint.c(31,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Project1.vcxproj -> D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\x64\Debug\7-2 Create a Linked List Using Anonymous Variables.exe
