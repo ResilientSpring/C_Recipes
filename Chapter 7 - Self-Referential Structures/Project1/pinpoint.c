@@ -28,5 +28,7 @@ main() {
 	start->next->next = (node*) malloc(sizeof(node));
 	strcpy(start->next->next->name, "bina");
 	start->next->next->next = (node*)malloc(sizeof(node));
+	strcpy(start->next->next->next->name, "tina");
+	start->next->next->next->next = NULL;
 
 }
