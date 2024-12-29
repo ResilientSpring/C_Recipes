@@ -14,4 +14,7 @@ int main() {
 	start.name = "Sherry";
 	start.next = (Node*) malloc(sizeof(Node));
 
+	start.next->name = "Peter";
+	start.next->next = (Node*) malloc(sizeof(Node));
+
 }
