@@ -30,7 +30,8 @@ int main() {
 	start->next->next->next->name = "Tim";
 	start->next->next->next->next = NULL;
 
-
+	printf("Names of all the members: \n");
+	display(start);
 
 }
 
