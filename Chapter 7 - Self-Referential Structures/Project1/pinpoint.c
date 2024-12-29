@@ -42,7 +42,12 @@ void display(node* start) {
 
 	do
 	{
+		printf("%s \n", start->name);
 
+		if (start->next == NULL)
+			flag = 0;
+
+		start = start->next;
 
 	} while (flag);
 
