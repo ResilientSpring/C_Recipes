@@ -39,7 +39,8 @@ void display(Node node) {
 	{
 		printf("Node's name is: %s.\n", node.name);
 
-		node = node.next; // It explains why Node is better declared as a pointer in main().
+		// It explains why Node is better declared as a pointer here and in main().
+		node = node.next; 
 
 	} while (flag == 1);
 
