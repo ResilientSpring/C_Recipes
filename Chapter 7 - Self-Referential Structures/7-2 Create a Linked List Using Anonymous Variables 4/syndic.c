@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void display(Node* node);
-
 typedef struct {
 
 	char* name;
@@ -12,6 +10,7 @@ typedef struct {
 
 } Start, Node;
 
+void display(Node* node);
 
 int main() {
 
