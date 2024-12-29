@@ -14,3 +14,15 @@ struct members {
 };
 
 typedef struct members node;
+
+void display(node* start);
+
+main() {
+
+	node* start;
+
+	start = (node*) malloc(sizeof(node));
+	strcpy(start->name, "lina");
+	start->next = (node*) malloc(sizeof(node));
+
+}
