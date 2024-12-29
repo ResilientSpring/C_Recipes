@@ -9,7 +9,13 @@ typedef struct {
 main() {
 
 
+	node start;
 
+	start.name = "A";
+
+	start.next = malloc(sizeof(node));
+
+	start.next.next = 
 
 
 }
