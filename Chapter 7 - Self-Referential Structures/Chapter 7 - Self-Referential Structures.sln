@@ -11,6 +11,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Us
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables 4", "7-2 Create a Linked List Using Anonymous Variables 4\7-2 Create a Linked List Using Anonymous Variables 4.vcxproj", "{C9E8A283-9EDE-470C-BA56-205EEEB84A09}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variabels 5", "7-2 Create a Linked List Using Anonymous Variabels 5\7-2 Create a Linked List Using Anonymous Variabels 5.vcxproj", "{25CD43C0-1465-4FFE-B9AA-152B76B642B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables 5", "7-2 Create a Linked List Using Anonymous Variables 5\7-2 Create a Linked List Using Anonymous Variables 5.vcxproj", "{896B85C4-85F6-4834-B34C-86056D278381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +55,22 @@ Global
 		{C9E8A283-9EDE-470C-BA56-205EEEB84A09}.Release|x64.Build.0 = Release|x64
 		{C9E8A283-9EDE-470C-BA56-205EEEB84A09}.Release|x86.ActiveCfg = Release|Win32
 		{C9E8A283-9EDE-470C-BA56-205EEEB84A09}.Release|x86.Build.0 = Release|Win32
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Debug|x64.ActiveCfg = Debug|x64
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Debug|x64.Build.0 = Debug|x64
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Debug|x86.Build.0 = Debug|Win32
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Release|x64.ActiveCfg = Release|x64
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Release|x64.Build.0 = Release|x64
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Release|x86.ActiveCfg = Release|Win32
+		{25CD43C0-1465-4FFE-B9AA-152B76B642B7}.Release|x86.Build.0 = Release|Win32
+		{896B85C4-85F6-4834-B34C-86056D278381}.Debug|x64.ActiveCfg = Debug|x64
+		{896B85C4-85F6-4834-B34C-86056D278381}.Debug|x64.Build.0 = Debug|x64
+		{896B85C4-85F6-4834-B34C-86056D278381}.Debug|x86.ActiveCfg = Debug|Win32
+		{896B85C4-85F6-4834-B34C-86056D278381}.Debug|x86.Build.0 = Debug|Win32
+		{896B85C4-85F6-4834-B34C-86056D278381}.Release|x64.ActiveCfg = Release|x64
+		{896B85C4-85F6-4834-B34C-86056D278381}.Release|x64.Build.0 = Release|x64
+		{896B85C4-85F6-4834-B34C-86056D278381}.Release|x86.ActiveCfg = Release|Win32
+		{896B85C4-85F6-4834-B34C-86056D278381}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

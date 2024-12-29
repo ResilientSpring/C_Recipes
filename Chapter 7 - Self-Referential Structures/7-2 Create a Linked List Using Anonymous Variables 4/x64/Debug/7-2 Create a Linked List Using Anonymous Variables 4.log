@@ -29,7 +29,9 @@ D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create 
 D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(30,9): error C2223: left of '->next' must point to struct/union
 D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(31,2): error C2065: 'start': undeclared identifier
 D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(31,9): error C2223: left of '->next' must point to struct/union
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(37,18): error C2143: syntax error: missing ')' before '*'
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(37,18): error C2143: syntax error: missing '{' before '*'
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(37,24): error C2059: syntax error: ')'
-D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(37,20): error C2054: expected '(' to follow 'node'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(34,2): warning C4013: 'display' undefined; assuming extern returning int
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(34,10): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(38,18): error C2143: syntax error: missing ')' before '*'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(38,18): error C2143: syntax error: missing '{' before '*'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(38,24): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4\syndic.c(38,20): error C2054: expected '(' to follow 'node'
