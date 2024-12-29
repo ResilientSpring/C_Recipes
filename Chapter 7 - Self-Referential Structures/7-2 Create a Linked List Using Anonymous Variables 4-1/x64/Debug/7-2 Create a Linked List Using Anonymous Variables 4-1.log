@@ -1,0 +1,38 @@
+﻿  syndic 1.c
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(11,2): error C2061: syntax error: identifier 'Node'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(13,1): error C2059: syntax error: '}'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(15,18): error C2143: syntax error: missing ')' before '*'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(15,18): error C2143: syntax error: missing '{' before '*'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(15,24): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(19,2): error C2065: 'Node': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(19,8): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(19,17): error C2065: 'Node': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(19,22): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(21,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(21,9): error C2223: left of '->name' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(22,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(22,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(22,17): error C2065: 'Node': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(22,22): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(24,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(24,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(25,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(25,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(25,23): error C2065: 'Node': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(25,28): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(27,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(27,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(28,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(28,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(28,29): error C2065: 'Node': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(28,34): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(30,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(30,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(31,2): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(31,9): error C2223: left of '->next' must point to struct/union
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(34,2): warning C4013: 'display' undefined; assuming extern returning int
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(34,10): error C2065: 'start': undeclared identifier
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(38,18): error C2143: syntax error: missing ')' before '*'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(38,18): error C2143: syntax error: missing '{' before '*'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(38,24): error C2059: syntax error: ')'
+D:\Coding projects\C_Recipes\Chapter 7 - Self-Referential Structures\7-2 Create a Linked List Using Anonymous Variables 4-1\syndic 1.c(38,20): error C2054: expected '(' to follow 'node'
