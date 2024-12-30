@@ -6,7 +6,7 @@
 
 typedef struct Node {
 
-	char* name;
+	const char* name;
 
 	Node* next;
 
