@@ -29,6 +29,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Us
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables 4-6", "7-2 Create a Linked List Using Anonymous Variables 4-6\7-2 Create a Linked List Using Anonymous Variables 4-6.vcxproj", "{A179DCDF-FEA5-4A89-9005-033575F9A154}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables 7", "7-2 Create a Linked List Using Anonymous Variables 7\7-2 Create a Linked List Using Anonymous Variables 7.vcxproj", "{63316D2F-2F5C-4B92-B027-8A2DCA15E748}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-3 Delete a Component from a Linked List", "7-3 Delete a Component from a Linked List\7-3 Delete a Component from a Linked List.vcxproj", "{4D28020D-409F-4237-989C-8A37D90707B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +145,22 @@ Global
 		{A179DCDF-FEA5-4A89-9005-033575F9A154}.Release|x64.Build.0 = Release|x64
 		{A179DCDF-FEA5-4A89-9005-033575F9A154}.Release|x86.ActiveCfg = Release|Win32
 		{A179DCDF-FEA5-4A89-9005-033575F9A154}.Release|x86.Build.0 = Release|Win32
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Debug|x64.ActiveCfg = Debug|x64
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Debug|x64.Build.0 = Debug|x64
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Debug|x86.ActiveCfg = Debug|Win32
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Debug|x86.Build.0 = Debug|Win32
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Release|x64.ActiveCfg = Release|x64
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Release|x64.Build.0 = Release|x64
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Release|x86.ActiveCfg = Release|Win32
+		{63316D2F-2F5C-4B92-B027-8A2DCA15E748}.Release|x86.Build.0 = Release|Win32
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Debug|x64.ActiveCfg = Debug|x64
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Debug|x64.Build.0 = Debug|x64
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Debug|x86.Build.0 = Debug|Win32
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Release|x64.ActiveCfg = Release|x64
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Release|x64.Build.0 = Release|x64
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Release|x86.ActiveCfg = Release|Win32
+		{4D28020D-409F-4237-989C-8A37D90707B4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
