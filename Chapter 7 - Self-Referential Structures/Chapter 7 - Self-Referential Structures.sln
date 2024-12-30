@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Us
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables 4-3", "7-2 Create a Linked List Using Anonymous Variables 4-3\7-2 Create a Linked List Using Anonymous Variables 4-3.vcxproj", "{14AF08FD-6868-4641-9F3E-3B9F18050F1E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables 4-4", "7-2 Create a Linked List Using Anonymous Variables 4-4\7-2 Create a Linked List Using Anonymous Variables 4-4.vcxproj", "{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{14AF08FD-6868-4641-9F3E-3B9F18050F1E}.Release|x64.Build.0 = Release|x64
 		{14AF08FD-6868-4641-9F3E-3B9F18050F1E}.Release|x86.ActiveCfg = Release|Win32
 		{14AF08FD-6868-4641-9F3E-3B9F18050F1E}.Release|x86.Build.0 = Release|Win32
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Debug|x64.ActiveCfg = Debug|x64
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Debug|x64.Build.0 = Debug|x64
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Debug|x86.Build.0 = Debug|Win32
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Release|x64.ActiveCfg = Release|x64
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Release|x64.Build.0 = Release|x64
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Release|x86.ActiveCfg = Release|Win32
+		{5B1C0BB5-1EFA-4F8C-80C9-81B771787720}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
