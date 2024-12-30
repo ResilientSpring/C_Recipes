@@ -4,11 +4,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct {
+typedef struct Node {
 
 	char* name;
 
-	struct Node* next;
+	Node* next;
 
 } Node;
 
