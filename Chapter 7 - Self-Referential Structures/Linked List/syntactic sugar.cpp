@@ -30,7 +30,10 @@ int main() {
 	start->next->next->next = (Node*)malloc(sizeof(Node));
 
 	start->next->next->next->name = "Tim";
-	start->next->next->next->next = NULL;
+	start->next->next->next->next = (Node*)malloc(sizeof(Node));
+
+	start->next->next->next->next->name = "Tony";
+	start->next->next->next->next->next = NULL;
 
 	printf("Names of all the members: \n");
 	display(start);
@@ -41,6 +44,11 @@ int main() {
 	free(start);
 	start = temporary;
 	display(start);
+
+	printf("\nDeleting non-first component. \n");
+	Node* temporary2;
+	temporary2 = start->next->next;
+
 }
 
 void display(Node* node) {
