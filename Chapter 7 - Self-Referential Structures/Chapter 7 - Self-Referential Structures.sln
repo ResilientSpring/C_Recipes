@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-3 Delete a Component from
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linked List", "Linked List\Linked List.vcxproj", "{4BD1D83C-A9F3-440D-A142-2C8FF0069FD2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-6 Process a Linear Linked List", "7-6 Process a Linear Linked List\7-6 Process a Linear Linked List.vcxproj", "{144D8A88-CA89-4CA1-A600-AF1538B39DC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{4BD1D83C-A9F3-440D-A142-2C8FF0069FD2}.Release|x64.Build.0 = Release|x64
 		{4BD1D83C-A9F3-440D-A142-2C8FF0069FD2}.Release|x86.ActiveCfg = Release|Win32
 		{4BD1D83C-A9F3-440D-A142-2C8FF0069FD2}.Release|x86.Build.0 = Release|Win32
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Debug|x64.ActiveCfg = Debug|x64
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Debug|x64.Build.0 = Debug|x64
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Debug|x86.ActiveCfg = Debug|Win32
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Debug|x86.Build.0 = Debug|Win32
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Release|x64.ActiveCfg = Release|x64
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Release|x64.Build.0 = Release|x64
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Release|x86.ActiveCfg = Release|Win32
+		{144D8A88-CA89-4CA1-A600-AF1538B39DC0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
