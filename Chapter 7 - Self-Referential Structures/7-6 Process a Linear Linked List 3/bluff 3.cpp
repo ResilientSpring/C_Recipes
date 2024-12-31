@@ -115,3 +115,21 @@ void create(Node* start) {
 	} while (flag);
 
 }
+
+void display(Node* start) {
+
+	int flag = 1;
+
+	if (start == NULL) {
+		printf("\nList is empty! Select the option 1.\n");
+		return;
+	}
+
+	printf("\nNames of all the members in the list: \n");
+
+	do
+	{
+		printf("%s\n", start->next);
+
+	} while (flag);
+}
