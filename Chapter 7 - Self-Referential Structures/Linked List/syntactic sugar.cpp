@@ -65,6 +65,6 @@ void display(Node* node) {
 			flag = 0;
 		}
 
-	} while (flag == 1);
+	} while (flag);
 
 }
