@@ -122,3 +122,11 @@ void display(Node* start) {
 
 	} while (flag);
 }
+
+Node* insert(Node* start) {
+
+	int flag = 1;
+	Node* newNode;
+	Node* before;
+
+}
