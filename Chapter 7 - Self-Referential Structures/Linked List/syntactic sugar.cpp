@@ -40,7 +40,7 @@ int main() {
 	temporary = start->next;
 	free(start);
 	start = temporary;
-
+	display(start);
 }
 
 void display(Node* node) {
