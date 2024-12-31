@@ -12,6 +12,8 @@ struct Node {
 
 typedef struct Node Node;
 
+typedef enum {a1, b1, c1, d1} Selection;
+
 void display(Node* node);
 
 int main() {
@@ -19,7 +21,18 @@ int main() {
 	Node* start;
 	Node* provisional;
 
+	Selection selection;
 
+	bool toggle = true; 
+
+	do
+	{
+
+
+
+	} while (toggle);
+
+	
 }
 
 void display(Node* node) {
