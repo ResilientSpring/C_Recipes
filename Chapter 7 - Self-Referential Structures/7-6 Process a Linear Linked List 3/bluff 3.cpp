@@ -105,6 +105,11 @@ void create(Node* start) {
 			flag = 0;
 			start->next = NULL;
 		}
+		else {
+
+			start->next = (Node*) malloc(sizeof(Node));
+
+		}
 
 	} while (flag);
 
