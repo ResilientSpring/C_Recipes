@@ -128,5 +128,8 @@ Node* insert(Node* start) {
 	int flag = 1;
 	Node* newNode;
 	Node* before;
+	Node* provisional;
+	char newName[20];
+	char target[20];
 
 }
