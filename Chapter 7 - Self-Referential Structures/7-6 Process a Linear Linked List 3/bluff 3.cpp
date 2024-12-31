@@ -15,7 +15,6 @@ typedef struct Node Node;
 
 void display(Node* node);
 int menu(void);
-void display(Node* start);
 
 int main() {
 
@@ -131,5 +130,8 @@ Node* insert(Node* start) {
 	Node* provisional;
 	char newName[20];
 	char target[20];
+
+	printf("Enter name to be inserted: ");
+	scanf(" %[^\n]", newName);
 
 }
