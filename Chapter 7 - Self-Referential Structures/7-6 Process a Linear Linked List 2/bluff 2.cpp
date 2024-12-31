@@ -16,7 +16,8 @@ void display(Node* node);
 
 int main() {
 
-
+	Node* start;
+	Node* provisional;
 
 
 }
