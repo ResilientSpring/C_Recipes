@@ -29,11 +29,13 @@ void display(Node* node) {
 	{
 		printf("Node's name is: %s.\n", node->name);
 
-		node = node->next;
+		
 
 		if (node->next == NULL) {
 			flag = 0;
 		}
+
+		node = node->next; // Moved this statement after if(node->next == NULL)
 
 	} while (flag == 1);
 
