@@ -131,5 +131,12 @@ void display(Node* start) {
 	{
 		printf("%s\n", start->next);
 
+		if (start->next == NULL) {
+
+			flag = 0;
+		}
+
+		start = start->next;
+
 	} while (flag);
 }
