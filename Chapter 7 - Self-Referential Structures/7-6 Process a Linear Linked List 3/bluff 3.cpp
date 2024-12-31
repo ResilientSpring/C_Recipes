@@ -108,7 +108,8 @@ void create(Node* start) {
 		else {
 
 			start->next = (Node*) malloc(sizeof(Node));
-
+			start = start->next;
+			printf("Enter name: ");
 		}
 
 	} while (flag);
