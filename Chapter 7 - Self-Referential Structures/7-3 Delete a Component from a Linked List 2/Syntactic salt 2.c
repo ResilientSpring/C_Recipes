@@ -57,7 +57,7 @@ void display(Node* node) {
 			flag = 0;
 		}
 
-		node = node->next;
+		node = node->next; // Moved this statement after if(node->next == NULL)
 
 	} while (flag == 1);
 
