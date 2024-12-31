@@ -132,6 +132,10 @@ Node* insert(Node* start) {
 	char target[20];
 
 	printf("Enter name to be inserted: ");
-	scanf(" %[^\n]", newName);
+
+	// Format specifier %[^\n] is used when scanf() is used to read a string, 
+	// not character.
+	scanf(" %[^\n]", newName);  
+
 
 }
