@@ -152,6 +152,7 @@ Node* insert(Node* start) {
 
 				newNode = (Node*) malloc(sizeof(Node));
 
+				strcpy(newNode->name, (const) newName);
 			}
 
 		} while (flag);
