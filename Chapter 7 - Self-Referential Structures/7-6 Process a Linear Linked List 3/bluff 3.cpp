@@ -98,6 +98,14 @@ void create(Node* start) {
 	{
 		scanf(" %[^\n]", start->name);
 
+		printf("Anymore name? (y/n): ");
+		scanf(" %c", &ch);
+
+		if (ch == 'n') {
+			flag = 0;
+			start->next = NULL;
+		}
+
 	} while (flag);
 
 }
