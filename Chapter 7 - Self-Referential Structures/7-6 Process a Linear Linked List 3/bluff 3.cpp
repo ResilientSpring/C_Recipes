@@ -85,3 +85,19 @@ int menu(void) {
 
 	return selection;
 }
+
+void create(Node* start) {
+
+	int flag = 1;
+
+	char ch;
+
+	printf("Enter name: ");
+
+	do
+	{
+		scanf(" %[^\n]", start->name);
+
+	} while (flag);
+
+}
