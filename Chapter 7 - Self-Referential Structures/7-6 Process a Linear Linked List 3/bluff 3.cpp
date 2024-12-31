@@ -78,6 +78,10 @@ int menu(void) {
 		printf("\nNow enter a number(1, 2, 3, or 4): ");
 		scanf("%d", &selection);
 
+		if ((selection < 1) || (selection > 4))
+			printf("Invalid Number! Please try again. \n");
+
 	} while ((selection < 1) || (selection > 4));
 
+	return selection;
 }
