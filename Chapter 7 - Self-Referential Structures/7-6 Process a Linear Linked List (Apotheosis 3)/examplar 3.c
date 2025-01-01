@@ -71,7 +71,7 @@ int main() {
 			continue;
 
 		default:
-			break;
+			printf("\nEnd of session.\n");
 		}
 
 
