@@ -176,10 +176,10 @@ Node* insert(Node* start) {
 
 	// Format specifier %[^\n] is used when scanf() is used to read a string, 
 	// not character.
-	scanf("%[^\n]", newName);  // newName is the same as &newName[0]
+	scanf(" %[^\n]", newName);  // newName is the same as &newName[0]
 
 	printf("Before which name to place? Type \"last\" if last: ");
-	scanf("%[^\n]", target);
+	scanf(" %[^\n]", target);
 
 	if (strcmp(target, "last") == 0) {
 
