@@ -15,6 +15,8 @@ typedef struct Node Node;
 
 void display(Node* node);
 int menu(void);
+void create(Node* start);
+Node* insert(Node* start);
 
 int main() {
 
@@ -34,6 +36,19 @@ int main() {
 			provisional = start;
 			create(start);
 			start = provisional;
+			display(start);
+			continue;
+
+		case 2:
+			if (start == NULL) {
+
+				printf("\nList is empty! Select the option 1.\n");
+				
+				continue;
+
+			}
+
+			start = insert(start);
 			display(start);
 			continue;
 
@@ -157,6 +172,12 @@ Node* insert(Node* start) {
 				newNode = (Node*)malloc(sizeof(Node));
 
 				strcpy(newNode->name, newName);
+
+				start->next = newNode;
+
+				newNode->next = NULL;
+
+				flag = 0;
 			}
 
 		} while (flag);
