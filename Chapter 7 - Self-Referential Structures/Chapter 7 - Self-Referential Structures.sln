@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-4 Insert a Component into
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-6 Process a Linear Linked List (Apotheosis)", "7-6 Process a Linear Linked List (Apotheosis)\7-6 Process a Linear Linked List (Apotheosis).vcxproj", "{A9877C2F-E98B-4B0A-97F7-0C5E959B8884}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-6 Process a Linear Linked List (Apotheosis 2)", "7-6 Process a Linear Linked List (Apotheosis 2)\7-6 Process a Linear Linked List (Apotheosis 2).vcxproj", "{441B2787-4C6D-46DE-A9E8-01175F93AF0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{A9877C2F-E98B-4B0A-97F7-0C5E959B8884}.Release|x64.Build.0 = Release|x64
 		{A9877C2F-E98B-4B0A-97F7-0C5E959B8884}.Release|x86.ActiveCfg = Release|Win32
 		{A9877C2F-E98B-4B0A-97F7-0C5E959B8884}.Release|x86.Build.0 = Release|Win32
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Debug|x64.ActiveCfg = Debug|x64
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Debug|x64.Build.0 = Debug|x64
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Debug|x86.Build.0 = Debug|Win32
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Release|x64.ActiveCfg = Release|x64
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Release|x64.Build.0 = Release|x64
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Release|x86.ActiveCfg = Release|Win32
+		{441B2787-4C6D-46DE-A9E8-01175F93AF0E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
