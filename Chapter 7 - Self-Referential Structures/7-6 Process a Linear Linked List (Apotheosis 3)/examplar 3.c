@@ -1,4 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
+#define _NO_CRT_STDIO_INLINE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
