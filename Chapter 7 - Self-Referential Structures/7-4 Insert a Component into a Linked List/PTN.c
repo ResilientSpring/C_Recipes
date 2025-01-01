@@ -40,6 +40,8 @@ int main() {
 	provisional = (Node*)malloc(sizeof(Node));
 	strcpy(provisional->name, "Sita");
 	provisional->next = start;
+	start = provisional;
+	display(start);
 
 }
 
