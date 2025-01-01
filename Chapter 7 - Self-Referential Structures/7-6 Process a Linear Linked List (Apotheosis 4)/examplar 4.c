@@ -6,7 +6,9 @@
 
 struct Node {
 
-	char name[20];
+	// const char* name;    To avoid scanf("%[^\n]", start->name); overflow.
+
+	char name[20]; 
 
 	struct Node* next;
 
