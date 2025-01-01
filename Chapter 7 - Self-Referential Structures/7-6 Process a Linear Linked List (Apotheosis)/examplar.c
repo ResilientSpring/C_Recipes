@@ -210,3 +210,33 @@ Node* insert(Node* start) {
 
 	return start;
 }
+
+Node* location(Node* start, char target[]) {
+
+	int flag = 1;
+
+	if (strcmp(start->next->name, target) == 0)
+		return start;
+	else if (start->next == NULL)
+		return NULL;
+	else {
+		do
+		{
+			start = start->next;
+
+			if (strcmp(start->next->name, target) == 0)
+				return(start);
+
+			if (start->next == NULL) {
+
+				flag = 0;
+
+				printf("Invalid entry. Please try again.\n");
+			}
+
+		} while (flag);
+	}
+
+	return NULL;
+
+}
