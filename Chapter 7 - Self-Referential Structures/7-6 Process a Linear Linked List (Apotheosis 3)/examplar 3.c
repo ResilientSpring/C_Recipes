@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#define _NO_CRT_STDIO_INLINE
+// #define _NO_CRT_STDIO_INLINE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -53,6 +53,20 @@ int main() {
 			}
 
 			start = insert(start);
+			display(start);
+			continue;
+
+		case 3:
+
+			if (start == NULL) {
+
+				printf("\nList is empty! Select the option 1.\n");
+
+				continue;
+
+			}
+
+			start = delete(start);
 			display(start);
 			continue;
 
