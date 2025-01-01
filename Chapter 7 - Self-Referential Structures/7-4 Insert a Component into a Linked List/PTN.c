@@ -39,7 +39,7 @@ int main() {
 	Node* provisional;
 	provisional = (Node*)malloc(sizeof(Node));
 	strcpy(provisional->name, "Sita");
-	provisional->next = start;
+	provisional->next = start->next;
 	start = provisional;
 	display(start);
 
