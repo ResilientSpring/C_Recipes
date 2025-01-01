@@ -102,7 +102,8 @@ void create(Node* start) {
 	{
 		scanf("%[^\n]", start->name);
 
-		printf("Anymore name? (y/n): ");
+		printf("\nAnymore name? (y/n): ");
+		
 		scanf("%c", &ch);
 
 		if (ch == 'n') {
