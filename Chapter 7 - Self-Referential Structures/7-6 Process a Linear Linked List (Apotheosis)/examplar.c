@@ -42,6 +42,7 @@ int main() {
 			continue;
 
 		case 2:
+
 			if (start == NULL) {
 
 				printf("\nList is empty! Select the option 1.\n");
