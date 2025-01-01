@@ -135,7 +135,7 @@ void create(Node* start) {
 
 	} while (flag);
 
-	return;
+	
 }
 
 void display(Node* start) {
