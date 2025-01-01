@@ -181,5 +181,32 @@ Node* insert(Node* start) {
 			}
 
 		} while (flag);
+
+		start = provisional;
+
+		return start;
 	}
+
+	if (strcmp(start->name, target) == 0) {
+
+		newNode = (Node*) malloc(sizeof(Node));
+		strcpy(newNode->name, newName);
+		newNode->next = start;
+		start = newNode;
+	}
+	else {
+
+		before = location(start, target);
+		if (before == NULL) {
+			printf("\nInvalid entry! Please try again\n");
+		}
+		else {
+			newNode = (Node *) malloc(sizeof(Node));
+			strcpy(newNode->name, newName);
+			newNode->next = before->next;
+			before->next = newNode;
+		}
+	}
+
+	return start;
 }
