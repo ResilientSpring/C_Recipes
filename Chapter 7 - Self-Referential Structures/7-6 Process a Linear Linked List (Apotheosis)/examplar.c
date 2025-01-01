@@ -17,6 +17,7 @@ void display(Node* node);
 int menu(void);
 void create(Node* start);
 Node* insert(Node* start);
+Node* location(Node* start, char target[]);
 
 int main() {
 
