@@ -38,6 +38,7 @@ int main() {
 	printf("\nInserting Sita at the first position. \n");
 	Node* provisional;
 	provisional = (Node*) malloc(sizeof(Node));
+	strcpy(provisional->name, "Sita");
 
 }
 
