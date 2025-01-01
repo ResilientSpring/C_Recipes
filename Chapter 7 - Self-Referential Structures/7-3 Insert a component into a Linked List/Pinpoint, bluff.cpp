@@ -6,7 +6,7 @@
 
 struct Node {
 
-	char* name;
+	const char* name;
 
 	struct Node* next;
 
@@ -35,12 +35,10 @@ int main() {
 	printf("Names of all the members: \n");
 	display(start);
 
-	printf("\nDeleting the first component. \n");
-	Node* temporary;
-	temporary = start->next;
-	free(start);
-	start = temporary;
-	display(start);
+	printf("\nInserting Sita at the first position. \n");
+	Node* provisional;
+	provisional = (Node*) malloc(sizeof(Node));
+
 }
 
 void display(Node* node) {
