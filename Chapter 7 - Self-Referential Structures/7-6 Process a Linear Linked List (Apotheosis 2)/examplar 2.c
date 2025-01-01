@@ -22,7 +22,7 @@ Node* delete(Node* start);
 
 int main() {
 
-	Node* start;
+	Node* start = 0;
 	Node* provisional;
 
 	int selection;
