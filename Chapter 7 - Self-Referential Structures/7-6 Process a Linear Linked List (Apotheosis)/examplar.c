@@ -263,5 +263,18 @@ Node* delete(Node* start) {
 			free(start);
 			start = provisional;
 		}
+	else {
 
+		before = location(start, target);
+		if (before == NULL)
+			printf("\nInvalid entry. Please try again.\n");
+		else {
+
+			provisional = before->next->next;
+			free(before->next);
+			before->next = provisional;
+
+		}
+	}
+	return start;
 }
