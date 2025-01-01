@@ -118,7 +118,7 @@ void create(Node* start) {
 	{
 		scanf(" %[^\n]", start->name);    // Left a blank in front of %.
 
-		printf("\nAnymore name? (y/n): ");
+		printf("Anymore name? (y/n): ");
 
 		scanf(" %c", &ch); // Left a blank in front of %.
 
