@@ -18,6 +18,7 @@ int menu(void);
 void create(Node* start);
 Node* insert(Node* start);
 Node* location(Node* start, char target[]);
+Node* delete(Node* start);
 
 int main() {
 
@@ -239,5 +240,28 @@ Node* location(Node* start, char target[]) {
 	}
 
 	return NULL;
+
+}
+
+Node* delete(Node* start) {
+
+	Node* before;
+	Node* provisional;
+	char target[20];
+
+	printf("\nEnter name to be deleted: ");
+	scanf(" %[^\n]", target);
+
+	if (strcmp(start->name, target) == 0)
+		if (start->next == NULL) {
+			free(start);
+			start = NULL;
+		}
+		else {
+
+			provisional = start->next;
+			free(start);
+			start = provisional;
+		}
 
 }
