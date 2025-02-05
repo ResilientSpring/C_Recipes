@@ -304,7 +304,24 @@ Node* delete(Node* start) {
 
 Node* search(Node* start) {
 
+	int flag = 1;
+	char target[20];
 
+	printf("\nEnter name to be deleted: ");
+	scanf(" %[^\n]", target);
+
+	do
+	{
+		if()
+
+		if (start->next == NULL) {
+
+			flag = 0;
+		}
+
+		start = start->next;
+
+	} while (flag);
 
 
 }
