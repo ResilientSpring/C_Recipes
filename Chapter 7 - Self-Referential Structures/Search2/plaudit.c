@@ -74,6 +74,19 @@ int main() {
 			display(start);
 			continue;
 
+		case 5:
+
+			if (start == NULL) {
+
+				printf("\nList is empty! Select the option 1.\n");
+
+				continue;
+
+			}
+
+
+
+
 		default:
 			printf("\nEnd of session.\n");
 		}
@@ -330,5 +343,5 @@ Node* search(Node* start) {
 
 	} while (flag);
 
-
+	return start;
 }
