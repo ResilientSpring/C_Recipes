@@ -136,8 +136,6 @@ void create(Node* start) {
 		}
 
 	} while (flag);
-
-
 }
 
 void display(Node* start) {
