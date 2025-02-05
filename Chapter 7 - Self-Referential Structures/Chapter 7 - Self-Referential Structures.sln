@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35425.106
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-2 Create a Linked List Using Anonymous Variables", "Project1\Project1.vcxproj", "{F81F1C18-027D-4B36-8999-43DE81F3E78A}"
 EndProject
@@ -64,6 +64,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-6 Process a Linear Linked List (Apotheosis )", "7-6 Process a Linear Linked List (Apotheosis )\7-6 Process a Linear Linked List (Apotheosis ).vcxproj", "{D5276514-3C55-4425-9976-EA48101383E8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7-6 Process a Linear Linked List (Apotheosis 6)", "7-6 Process a Linear Linked List (Apotheosis 6)\7-6 Process a Linear Linked List (Apotheosis 6).vcxproj", "{A2D5DB14-215C-4035-8714-C85D07123626}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search", "Search\Search.vcxproj", "{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search2", "Search2\Search2.vcxproj", "{075AE50C-99B8-4CB2-B5A4-53D1109676D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +325,22 @@ Global
 		{A2D5DB14-215C-4035-8714-C85D07123626}.Release|x64.Build.0 = Release|x64
 		{A2D5DB14-215C-4035-8714-C85D07123626}.Release|x86.ActiveCfg = Release|Win32
 		{A2D5DB14-215C-4035-8714-C85D07123626}.Release|x86.Build.0 = Release|Win32
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Debug|x64.ActiveCfg = Debug|x64
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Debug|x64.Build.0 = Debug|x64
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Debug|x86.Build.0 = Debug|Win32
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Release|x64.ActiveCfg = Release|x64
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Release|x64.Build.0 = Release|x64
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Release|x86.ActiveCfg = Release|Win32
+		{9B1DDDEC-3C1C-4935-BEC1-0B90C904721C}.Release|x86.Build.0 = Release|Win32
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Debug|x64.ActiveCfg = Debug|x64
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Debug|x64.Build.0 = Debug|x64
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Debug|x86.ActiveCfg = Debug|Win32
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Debug|x86.Build.0 = Debug|Win32
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Release|x64.ActiveCfg = Release|x64
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Release|x64.Build.0 = Release|x64
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Release|x86.ActiveCfg = Release|Win32
+		{075AE50C-99B8-4CB2-B5A4-53D1109676D7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
