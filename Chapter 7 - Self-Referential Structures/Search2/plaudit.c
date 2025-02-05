@@ -84,8 +84,8 @@ int main() {
 
 			}
 
-
-
+			start = search(start);
+			continue;
 
 		default:
 			printf("\nEnd of session.\n");
@@ -109,14 +109,15 @@ int menu(void) {
 		printf("Enter 2 to insert a node in linked list.\n");
 		printf("Enter 3 to delete a node from linked list.\n");
 		printf("Enter 4 to end the session.\n");
+		printf("Enter 5 to search for a node.\n");
 
-		printf("\nNow enter a number(1, 2, 3, or 4): ");
+		printf("\nNow enter a number(1, 2, 3, 4, or 5): ");
 		scanf("%d", &selection);
 
-		if ((selection < 1) || (selection > 4))
+		if ((selection < 1) || (selection > 5))
 			printf("Invalid Number! Please try again. \n");
 
-	} while ((selection < 1) || (selection > 4));
+	} while ((selection < 1) || (selection > 5));
 
 	return selection;
 }
