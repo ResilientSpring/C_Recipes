@@ -305,6 +305,7 @@ Node* delete(Node* start) {
 Node* search(Node* start) {
 
 	int flag = 1;
+	int position = 0;
 	char target[20];
 
 	printf("\nEnter name to be deleted: ");
@@ -312,7 +313,11 @@ Node* search(Node* start) {
 
 	do
 	{
-		if()
+		if (strcmp(start->name, target) == 0) {
+
+			printf("%s is at position %d!\n", target, position);
+
+		}
 
 		if (start->next == NULL) {
 
@@ -320,6 +325,8 @@ Node* search(Node* start) {
 		}
 
 		start = start->next;
+
+		position++;
 
 	} while (flag);
 
