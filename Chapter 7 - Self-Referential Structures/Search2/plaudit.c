@@ -322,7 +322,7 @@ Node* search(Node* start) {
 	int position = 0;
 	char target[20];
 
-	printf("\nEnter name to be deleted: ");
+	printf("\nEnter name to search for: ");
 	scanf(" %[^\n]", target);
 
 	do
