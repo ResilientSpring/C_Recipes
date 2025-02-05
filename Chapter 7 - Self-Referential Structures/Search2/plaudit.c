@@ -38,6 +38,7 @@ int main() {
 		switch (selection)
 		{
 		case 1:
+
 			start = (Node*)malloc(sizeof(Node));
 			provisional = start;
 			create(start);
