@@ -219,6 +219,7 @@ Node* insert(Node* start) {
 	else {
 
 		before = location(start, target);
+
 		if (before == NULL) {
 			printf("\nInvalid entry! Please try again\n");
 		}
@@ -273,6 +274,7 @@ Node* delete(Node* start) {
 	scanf(" %[^\n]", target);
 
 	if (strcmp(start->name, target) == 0)
+
 		if (start->next == NULL) {
 			free(start);
 			start = NULL;
