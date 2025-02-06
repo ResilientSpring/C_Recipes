@@ -322,6 +322,7 @@ Node* search(Node* start) {
 	int flag = 1;
 	int position = 0;
 	char target[20];
+	Node* start_at_first = start;
 
 	printf("\nEnter name to search for: ");
 	scanf(" %[^\n]", target);
