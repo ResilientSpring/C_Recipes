@@ -346,5 +346,5 @@ Node* search(Node* start) {
 
 	} while (flag);
 
-	return start;
+	return start_at_first;
 }
